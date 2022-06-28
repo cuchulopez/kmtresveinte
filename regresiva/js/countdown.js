@@ -6,7 +6,7 @@ simplyCountdown('#cuenta-regresiva', {
     minutes: 45, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
-        days: { singular: 'día', plural: 'dias' },
+        days: { singular: 'día', plural: 'días' },
         hours: { singular: 'hora', plural: 'horas' },
         minutes: { singular: 'minuto', plural: 'minutos' },
         seconds: { singular: 'segundo', plural: 'segundos' }
