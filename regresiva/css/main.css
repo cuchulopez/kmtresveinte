@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363639;
+    font-family: 'Work Sans','Oswald', sans-serif;
+    height: 100%;
+    margin: auto;
+    max-width: 1000px;
+}
+.contenedor {
+    display: flex;
+    padding: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.titulo {
+    color: #ccc;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#cuenta-regresiva {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.simply-section {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+
+    height: 12rem;
+    width: 12rem;
+
+}
+
+.simply-amount {
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.simply-word {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:768px ){
+    .contenedor{
+        display: inline;
+        margin-top: 40px;
+        position: fixed;
+        padding: 0 0;
+    }
+    .titulo {
+        /* margin-top: 10px; */
+        font-size: 1.5rem;
+    }
+    #cuenta-regresiva {
+        padding-top: 50px;
+    }
+
+    .simply-section {
+        border-radius: 2px;
+        margin: 0px 5px;
+    
+        height: 5rem;
+        width: 5rem;
+    }
+    .simply-amount {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .simply-word {
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+
+}
