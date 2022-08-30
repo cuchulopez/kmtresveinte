@@ -1,5 +1,5 @@
 simplyCountdown('#cuenta-regresiva', {
-    year: 2022, // required
+    year: 2023, // required
     month: 8, // required
     day: 22, // required
     hours: 11, // Default is 0 [0-23] integer
