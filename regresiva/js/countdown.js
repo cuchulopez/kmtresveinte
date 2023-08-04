@@ -1,8 +1,8 @@
 simplyCountdown('#cuenta-regresiva', {
     year: 2023, // required
     month: 8, // required
-    day: 22, // required
-    hours: 11, // Default is 0 [0-23] integer
+    day: 15, // required
+    hours: 12, // Default is 0 [0-23] integer
     minutes: 45, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
