@@ -1,197 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2nd Grade English Worksheet</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
-        
-        body {
-            font-family: 'Comic Neue', cursive, sans-serif;
-            background-color: #f4f9f9;
-            color: #333;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border: 3px dashed #4facfe;
-        }
-        h1 {
-            text-align: center;
-            color: #ff6b6b;
-            font-size: 2.5em;
-            margin-bottom: 5px;
-        }
-        .header-info {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 30px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-        .header-info div {
-            border-bottom: 2px solid #ccc;
-            width: 45%;
-        }
-        h2 {
-            color: #4facfe;
-            border-bottom: 2px solid #4facfe;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-        .activity {
-            margin-bottom: 25px;
-        }
-        .instruction {
-            font-weight: bold;
-            font-size: 1.2em;
-            margin-bottom: 15px;
-            color: #ff9f43;
-        }
-        .fill-blank {
-            border-bottom: 1px solid #333;
-            display: inline-block;
-            min-width: 100px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 15px;
-            font-size: 1.1em;
-        }
-        .drawing-box {
-            width: 100%;
-            height: 200px;
-            border: 2px solid #a29bfe;
-            border-radius: 10px;
-            margin-top: 10px;
-            background-color: #fcfcfc;
-        }
-        .options {
-            font-weight: bold;
-            color: #00b894;
-        }
-        .answer-key {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #fff3cd;
-            border-radius: 10px;
-            border: 2px solid #ffeeba;
-            display: block;
-        }
-        .answer-key h3 {
-            color: #856404;
-            margin-top: 0;
-        }
-        /* Print styles */
-        @media print {
-            body { background-color: #fff; }
-            .container { box-shadow: none; border: none; padding: 0; }
-            .answer-key { page-break-before: always; }
-        }
-    </style>
-</head>
-<body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Year 2 English Worksheets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;800&display=swap">
+<style>
+/* Layout: exercise book — sticky crayon tab strip, one test per page, activities as numbered blocks on a ruled sheet */
+:root{
+  --paper:#fbfcff; --sheet:#ffffff; --ink:#1f2a44; --muted:#5d6785; --rule:#d9e2f2; --margin:#f2a7a7;
+  --a:#d9433b; --b:#2f9a52; --c:#d69a00; --d:#2f6fd6; --e:#8a4fc9;
+  --accent:var(--d); --chip:#eef3fc;
+  --display:"Baloo 2","Trebuchet MS",system-ui,sans-serif;
+  --body:"Andika","Verdana",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#12172a; --sheet:#1a2036; --ink:#e8ecf7; --muted:#a3acc7; --rule:#2c3552; --margin:#7a3b45;
+  --a:#ff7a6e; --b:#5fd08a; --c:#f2c14e; --d:#78a6ff; --e:#c49bff; --chip:#242c48; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#12172a; --sheet:#1a2036; --ink:#e8ecf7; --muted:#a3acc7; --rule:#2c3552; --margin:#7a3b45;
+  --a:#ff7a6e; --b:#5fd08a; --c:#f2c14e; --d:#78a6ff; --e:#c49bff; --chip:#242c48; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:400 1.05rem/1.6 var(--body);padding:0 16px}
+.wrap{max-width:860px;margin:0 auto;padding-block:20px 48px;display:grid;gap:18px}
+header h1{font:800 clamp(1.7rem,5vw,2.4rem)/1.1 var(--display);margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted);max-width:62ch}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding-block:8px;display:flex;gap:8px;overflow-x:auto}
+nav button{flex:0 0 auto;font:700 1rem var(--display);border:2px solid var(--tc);color:var(--tc);background:var(--sheet);border-radius:999px;padding:6px 14px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--tc);color:var(--sheet)}
+nav button:focus-visible,.opt:focus-visible,summary:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-top:8px solid var(--accent);border-radius:6px;padding:20px clamp(16px,4vw,36px);display:grid;gap:22px;min-width:0}
+.sheet h2{font:800 clamp(1.4rem,4vw,1.9rem)/1.15 var(--display);margin:0;color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--muted)}
+.meta label{display:flex;gap:6px;align-items:baseline}
+.act{display:grid;gap:8px;min-width:0;padding-left:14px;border-left:3px solid var(--margin)}
+.act h3{font:800 1.12rem/1.3 var(--display);margin:0}
+.act h3 .n{display:inline-grid;place-items:center;width:1.7em;height:1.7em;border-radius:50%;background:var(--accent);color:var(--sheet);margin-right:8px;font-size:.9em}
+.act p,.act ol{margin:0}
+.act ol{padding-left:1.5em;display:grid;gap:6px}
+.pics{font-size:1.5rem;letter-spacing:.08em}
+.bank{background:var(--chip);border-radius:6px;padding:6px 12px;font-weight:700;width:fit-content;max-width:100%}
+.story{font-style:italic;background:var(--chip);border-radius:6px;padding:10px 14px}
+input.blank{font:inherit;color:var(--accent);background:transparent;border:0;border-bottom:2px dotted var(--muted);width:9em;max-width:100%;padding:0 4px}
+input.blank.s{width:3.2em;text-align:center}
+input.blank.l{width:min(22em,100%)}
+input.box{font:700 1rem var(--body);width:1.8em;height:1.6em;text-align:center;border:2px solid var(--muted);border-radius:4px;background:transparent;color:var(--accent)}
+input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.opt{cursor:pointer;border-radius:999px;padding:0 6px;border:2px solid transparent;font-weight:700}
+.opt.on{border-color:var(--accent);color:var(--accent)}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;min-width:280px}
+th,td{border:1px solid var(--rule);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--chip);font-family:var(--display)}
+td.empty{height:2.2em;min-width:7em}
+.draw{border:2px dashed var(--rule);border-radius:8px;min-height:180px;display:grid;place-items:center;color:var(--muted);font-size:.9rem}
+details{border-top:2px dashed var(--rule);padding-top:14px}
+summary{cursor:pointer;font:800 1.1rem var(--display);color:var(--accent)}
+.key{margin-top:10px}
+.key td:first-child{font-variant-numeric:tabular-nums;font-weight:700;width:3em;text-align:center}
+.hint{color:var(--muted);font-size:.9rem;margin:0}
+.reset{justify-self:start;font:700 .95rem var(--display);background:transparent;color:var(--muted);border:2px solid var(--rule);border-radius:999px;padding:4px 14px;cursor:pointer}
+@media print{nav,.reset,header p,.hint{display:none}body{background:#fff;color:#000}.sheet{border:0}details{display:none}}
+@media (prefers-reduced-motion:no-preference){.opt{transition:border-color .15s}}
+</style>
 
-<div class="container">
-    <h1>🌟 My Fun English Review 🌟</h1>
-    
-    <div class="header-info">
-        <div>Name: </div>
-        <div>Date: </div>
-    </div>
-
-    <!-- Activity 1 -->
-    <div class="activity">
-        <h2>Activity 1: All About Me! 🎒</h2>
-        <div class="instruction">Read and fill in the blanks. Circle the correct word.</div>
-        <p style="font-size: 1.2em;">
-            Hello! My name is <span class="fill-blank"></span>. <br><br>
-            I am <span class="fill-blank"></span> years old. <br><br>
-            Look at my school bag! I have got a <span class="options">( pencil / car )</span> and a <span class="options">( ruler / dog )</span>.<br><br>
-            I haven't got a <span class="options">( book / dinosaur )</span> in my bag. My favourite toy is a kite!
-        </p>
-    </div>
-
-    <!-- Activity 2 -->
-    <div class="activity">
-        <h2>Activity 2: Animal Magic! 🦁🐮</h2>
-        <div class="instruction">Read and match the animal to the description. Draw a line!</div>
-        <ul>
-            <li>1. It is a wild animal. It is big and grey. It can walk but it can't fly. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>A) COW</b></li>
-            <li>2. It is a domestic animal. It is small. It can jump and catch mice! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>B) ELEPHANT</b></li>
-            <li>3. It is a farm animal. It is black and white. It can walk. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>C) CAT</b></li>
-        </ul>
-    </div>
-
-    <!-- Activity 3 -->
-    <div class="activity">
-        <h2>Activity 3: My Town & Jobs 🏥⚽</h2>
-        <div class="instruction">Look at the sentences. Circle the correct option.</div>
-        <ul>
-            <li>1. Look! <b>( There is / There are )</b> a big hospital in my town.</li>
-            <li>2. A <b>( teacher / doctor )</b> works in the hospital.</li>
-            <li>3. <b>( There is / There are )</b> two parks next to the school.</li>
-            <li>4. I play football in the park. Football is a <b>( sport / shape )</b>.</li>
-        </ul>
-    </div>
-
-    <!-- Activity 4 -->
-    <div class="activity">
-        <h2>Activity 4: What can YOU do? 🏃‍♂️</h2>
-        <div class="instruction">Write true sentences about you. Use "I can" or "I can't".</div>
-        <ul>
-            <li>1. (swim) ____________________________________________________</li>
-            <li>2. (fly) _______________________________________________________</li>
-            <li>3. (jump) _____________________________________________________</li>
-        </ul>
-    </div>
-
-    <!-- Activity 5 -->
-    <div class="activity">
-        <h2>Activity 5: The Magic Calendar 📅</h2>
-        <div class="instruction">Write the missing days, months, and numbers!</div>
-        <ul>
-            <li>1. <b>Days:</b> Monday, _______________, Wednesday, _______________, Friday.</li>
-            <li>2. <b>Months:</b> _______________, February, March, _______________, May.</li>
-            <li>3. <b>Numbers:</b> ten, twenty, _______________, forty, _______________, sixty.</li>
-        </ul>
-    </div>
-
-    <!-- Activity 6 -->
-    <div class="activity">
-        <h2>Activity 6: Read and Draw! 🎨</h2>
-        <div class="instruction">Read the sentences very carefully and draw the picture in the box.</div>
-        <ul>
-            <li>1. Draw a big blue <b>circle</b>.</li>
-            <li>2. Draw a red <b>book</b> <i>in front of</i> the circle.</li>
-            <li>3. Draw a yellow <b>pencil</b> <i>next to</i> the book.</li>
-        </ul>
-        <div class="drawing-box"></div>
-    </div>
-
-    <!-- Answer Key (For Parents/Teachers) -->
-    <div class="answer-key">
-        <h3>Teachers & Parents: Answer Key 🔑</h3>
-        <p><b>Activity 1:</b> Child's name / Child's age / pencil / ruler / dinosaur.</p>
-        <p><b>Activity 2:</b> 1 -> B (Elephant) / 2 -> C (Cat) / 3 -> A (Cow).</p>
-        <p><b>Activity 3:</b> 1. There is / 2. doctor / 3. There are / 4. sport.</p>
-        <p><b>Activity 4:</b> 1. I can/can't swim. / 2. I can't fly. (Expected) / 3. I can jump.</p>
-        <p><b>Activity 5:</b> 1. Tuesday, Thursday / 2. January, April / 3. thirty, fifty.</p>
-        <p><b>Activity 6:</b> The drawing should show a blue circle. In front of it (overlapping or below), a red book. To the side of the book, a yellow pencil.</p>
-    </div>
-
+<div class="wrap">
+  <header>
+    <h1>English Review Worksheets · Year 2</h1>
+    <p>Five practice tests for 7–8 year olds. Kids can type on the dotted lines, tap a word to circle it, and draw on paper for the drawing boxes. Each test has its Answer Key at the bottom.</p>
+  </header>
+  <nav role="tablist" aria-label="Practice tests" id="tabs"></nav>
+  <main id="stage"></main>
 </div>
 
-</body>
-</html>
+<script>
+const T=[
+{id:"a",color:"--a",title:"Test A – A Day at the Zoo 🦁",acts:[
+["About me. Read and complete.",`<p>Hello! My name is ___L. I am ___s years old. My birthday is in ___. My favourite colour is ___.</p>`],
+["Read and match the numbers.",`<div class="tw"><table><tr><th>Number</th><th>Word</th><th>Match</th></tr><tr><td>12</td><td>a) forty-five</td><td>___s</td></tr><tr><td>28</td><td>b) one hundred</td><td>___s</td></tr><tr><td>45</td><td>c) twelve</td><td>___s</td></tr><tr><td>73</td><td>d) twenty-eight</td><td>___s</td></tr><tr><td>100</td><td>e) seventy-three</td><td>___s</td></tr></table></div>`],
+["Fill in the missing days of the week.",`<p>Monday → ___ → Wednesday → ___ → Friday → ___ → Sunday</p>`],
+["Read, draw and colour.",`<ol><li>Draw a red circle.</li><li>Draw a blue square.</li><li>Draw a yellow triangle.</li><li>Draw a green rectangle.</li><li>Draw a purple star.</li></ol>[DRAW]`],
+["Look at the pictures and circle the correct word.",`<ol><li><span class="pics">🐱 📦</span> The cat is (in / next to) the box.</li><li><span class="pics">🐶 🐰 🐸</span> The rabbit is (between / under) the dog and the frog.</li><li><span class="pics">🐟→🥣</span> The fish is (on / in) the bowl.</li><li><span class="pics">🦜⬆🌳</span> The parrot is (on / under) the tree.</li></ol>`],
+["Animals! Write the animals in the correct group.",`<p class="bank">cow · lion · dog · horse · monkey · cat · sheep · giraffe · hamster</p><div class="tw"><table><tr><th>Farm 🚜</th><th>Domestic 🏠</th><th>Wild 🌴</th></tr><tr><td>___</td><td>___</td><td>___</td></tr><tr><td>___</td><td>___</td><td>___</td></tr><tr><td>___</td><td>___</td><td>___</td></tr></table></div>`],
+["Read and circle can or can't.",`<ol><li>A fish 🐟 (can / can't) swim.</li><li>An elephant 🐘 (can / can't) fly.</li><li>A monkey 🐒 (can / can't) climb.</li><li>A snake 🐍 (can / can't) walk.</li><li>A kangaroo 🦘 (can / can't) jump.</li></ol>`],
+["Jobs. Read and match.",`<div class="tw"><table><tr><th>Job</th><th>What does he / she do?</th><th>Match</th></tr><tr><td>1. zookeeper</td><td>a) helps sick people</td><td>___s</td></tr><tr><td>2. doctor</td><td>b) feeds the animals at the zoo</td><td>___s</td></tr><tr><td>3. teacher</td><td>c) cooks food</td><td>___s</td></tr><tr><td>4. chef</td><td>d) works at school</td><td>___s</td></tr></table></div>`],
+["Places in town. Complete with There is or There are.",`<p class="pics">🏫 · 🏥 🏥 · 🌳 🌳 🌳 · 🏪</p><ol><li>___ one school.</li><li>___ two hospitals.</li><li>___ three trees.</li><li>___ a shop.</li></ol>`],
+["My school bag. Write I have got or I haven't got.",`<p class="pics">✏️✅ · 📏❌ · 📕✅ · ✂️❌</p><ol><li>___L a pencil.</li><li>___L a ruler.</li><li>___L a book.</li><li>___L scissors.</li></ol>`],
+["Read and draw.",`<p class="story">There is a table. There is a lion under the table. There is a yellow ball on the table. There is a monkey next to the table. The monkey can climb!</p>[DRAW]`]
+],key:[["1","Open (personal answers)"],["2","12–c · 28–d · 45–a · 73–e · 100–b"],["3","Tuesday · Thursday · Saturday"],["4","Drawing: red circle, blue square, yellow triangle, green rectangle, purple star"],["5","next to · between · in · on"],["6","Farm: cow, horse, sheep · Domestic: dog, cat, hamster · Wild: lion, monkey, giraffe"],["7","can · can't · can · can't · can"],["8","1–b · 2–a · 3–d · 4–c"],["9","There is · There are · There are · There is"],["10","I have got · I haven't got · I have got · I haven't got"],["11","Drawing: lion under the table, yellow ball on the table, monkey next to the table"]]},
+
+{id:"b",color:"--b",title:"Test B – Fun on the Farm 🐄",acts:[
+["Read and answer about you.",`<ol><li>What's your name? → My name is ___L.</li><li>How old are you? → I am ___s years old.</li><li>What day is it today? → Today is ___.</li></ol>`],
+["Maths time! Write the answer in numbers and in words.",`<ol><li>10 + 10 = ___s → ___</li><li>30 + 20 = ___s → ___</li><li>50 + 40 = ___s → ___</li><li>99 + 1 = ___s → ___</li></ol>`],
+["Months of the year. Put them in order (1–6).",`<p>( ) March · ( ) January · ( ) June · ( ) February · ( ) May · ( ) April</p>`],
+["Look and write the shape and the colour.",`<ol><li><span class="pics">🔴</span> It's a red ___.</li><li><span class="pics">🟦</span> It's a blue ___.</li><li><span class="pics">🔺</span> It's a red ___.</li><li><span class="pics">⭐</span> It's a yellow ___.</li></ol>`],
+["Read and draw on the farm.",`<ol><li>A pig is in the mud.</li><li>A hen is on the fence.</li><li>A cat is under the tractor.</li><li>A dog is behind the barn.</li></ol>[DRAW]`],
+["Odd one out! Circle the animal that is NOT in the group.",`<ol><li>Farm animals: (cow / goat / tiger / horse)</li><li>Wild animals: (zebra / lion / elephant / sheep)</li><li>Domestic animals: (dog / cat / crocodile / hamster)</li></ol>`],
+["Read and complete with It can or It can't.",`<ol><li>🐴 A horse: ___ run. ___ fly.</li><li>🦆 A duck: ___ swim. ___ fly.</li><li>🐄 A cow: ___ climb. ___ walk.</li></ol>`],
+["Sports. Look and write the sport.",`<p class="bank">football · tennis · swimming · basketball</p><ol><li><span class="pics">⚽</span> ___</li><li><span class="pics">🎾</span> ___</li><li><span class="pics">🏊</span> ___</li><li><span class="pics">🏀</span> ___</li></ol>`],
+["My town. Read and write True (T) or False (F).",`<p class="pics">🏫 🏫 · 🏥 · 🌳 🌳 · ⛪</p><ol><li>There are two schools. ( )</li><li>There are three hospitals. ( )</li><li>There is a church. ( )</li><li>There is one tree. ( )</li></ol>`],
+["What can you do? Tick ✔ or cross ✘ and write.",`<div class="tw"><table><tr><th>Action</th><th>✔ / ✘</th><th>Sentence</th></tr><tr><td>ride a bike 🚲</td><td>( )</td><td>I ___s ride a bike.</td></tr><tr><td>swim 🏊</td><td>( )</td><td>I ___s swim.</td></tr><tr><td>skip 🪢</td><td>( )</td><td>I ___s skip.</td></tr><tr><td>jump 🦘</td><td>( )</td><td>I ___s jump.</td></tr></table></div>`],
+["Toys. Write sentences with I have got / I haven't got.",`<p class="pics">🧸✅ · 🪁❌ · 🚗✅ · 🪀❌</p><ol><li>(teddy bear) ___L</li><li>(kite) ___L</li><li>(car) ___L</li><li>(yo-yo) ___L</li></ol>`]
+],key:[["1","Open (personal answers)"],["2","20 twenty · 50 fifty · 90 ninety · 100 one hundred"],["3","March 3 · January 1 · June 6 · February 2 · May 5 · April 4"],["4","circle · square · triangle · star"],["5","Drawing: pig in the mud, hen on the fence, cat under the tractor, dog behind the barn"],["6","tiger · sheep · crocodile"],["7","Horse: It can run. It can't fly. · Duck: It can swim. It can fly. · Cow: It can't climb. It can walk."],["8","football · tennis · swimming · basketball"],["9","T · F · T · F"],["10","Open: I can / I can't + verb"],["11","I have got a teddy bear. · I haven't got a kite. · I have got a car. · I haven't got a yo-yo."]]},
+
+{id:"c",color:"--c",title:"Test C – Classroom and Toy Shop 🧸",acts:[
+["Put the words in order and write.",`<ol><li>name / My / is / Tom → ___L</li><li>am / I / eight / old / years → ___L</li></ol><p>Now write about you: ___L</p>`],
+["Count in tens and complete.",`<p>10 · 20 · ___s · 40 · ___s · 60 · ___s · 80 · ___s · 100</p>`],
+["Days of the week. Read and complete.",`<ol><li>The day after Monday is ___.</li><li>The day before Saturday is ___.</li><li>There are ___s days in a week.</li><li>We don't go to school on ___ and ___.</li></ol>`],
+["Read and colour the shapes.",`<p class="bank">circle → orange · square → pink · triangle → brown · rectangle → grey</p>[DRAW]`],
+["Complete with: in front of · behind · on · in",`<ol><li><span class="pics">📚🎒</span> The books are ___ the school bag.</li><li><span class="pics">🖍️🪑</span> The crayons are ___ the chair.</li><li><span class="pics">🧑‍🏫🟩</span> The teacher is ___ the board.</li><li><span class="pics">🐹🗄️</span> The hamster is ___ the cupboard. (You can't see it!)</li></ol>`],
+["Guess the animal! Read and write.",`<p class="bank">elephant · cat · parrot</p><ol><li>It's a domestic animal. It's small. It has got four legs and a long tail. It can jump. It can't fly. → It's a ___.</li><li>It's a wild animal. It's big and grey. It has got a long nose. It can't fly. → It's an ___.</li><li>It's a wild bird. It's green, red and yellow. It can fly and it can talk! → It's a ___.</li></ol>`],
+["Read and write can or can't.",`<ol><li>A dog ___ run.</li><li>A turtle ___ run fast.</li><li>A bird ___ fly.</li><li>A fish ___ walk.</li></ol>`],
+["Where do they work? Read and match.",`<div class="tw"><table><tr><th>Job</th><th>Place</th><th>Match</th></tr><tr><td>1. teacher</td><td>a) hospital 🏥</td><td>___s</td></tr><tr><td>2. nurse</td><td>b) fire station 🚒</td><td>___s</td></tr><tr><td>3. firefighter</td><td>c) school 🏫</td><td>___s</td></tr><tr><td>4. police officer</td><td>d) police station 🚓</td><td>___s</td></tr></table></div>`],
+["Circle the correct word.",`<ol><li>There (is / are) a park in my town.</li><li>There (is / are) four houses.</li><li>There (is / are) a supermarket.</li><li>There (is / are) two playgrounds.</li></ol>`],
+["Classroom objects. Look, count and write.",`<p class="pics">✏️✏️✏️ · 📏 · ✂️✂️ · 📒📒📒📒</p><ol><li>I have got ___s pencils.</li><li>I have got ___s ruler.</li><li>I have got ___s scissors.</li><li>I have got ___s notebooks.</li></ol>`],
+["The toy shop. Read and write True (T) or False (F).",`<p class="story">In the toy shop there is a big teddy bear on the shelf. There are three balls in the box. There is a doll next to the teddy bear. There is a toy car under the table. A robot can walk, but it can't swim.</p><ol><li>The teddy bear is under the table. ( )</li><li>There are three balls. ( )</li><li>The doll is next to the teddy bear. ( )</li><li>The robot can swim. ( )</li></ol>`]
+],key:[["1","My name is Tom. · I am eight years old. · Open sentence"],["2","30 · 50 · 70 · 90"],["3","Tuesday · Friday · 7 · Saturday and Sunday"],["4","Drawing: orange circle, pink square, brown triangle, grey rectangle"],["5","in · on · in front of · behind"],["6","cat · elephant · parrot"],["7","can · can't · can · can't"],["8","1–c · 2–a · 3–b · 4–d"],["9","is · are · is · are"],["10","3 · 1 · 2 · 4"],["11","F · T · T · F"]]},
+
+{id:"d",color:"--d",title:"Test D – Sports Day 🏅",acts:[
+["Complete your Sports Day ID card.",`<div class="tw"><table><tr><th colspan="2">🪪 SPORTS DAY ID CARD</th></tr><tr><td>My name is</td><td>___L</td></tr><tr><td>I am … years old</td><td>___s</td></tr><tr><td>My birthday is in</td><td>___</td></tr><tr><td>My favourite sport is</td><td>___</td></tr></table></div>`],
+["Read and write the numbers.",`<ol><li>thirty-six → ___s</li><li>fifty-one → ___s</li><li>eighty-four → ___s</li><li>ninety-nine → ___s</li><li>sixty-seven → ___s</li></ol>`],
+["Months. What comes next?",`<ol><li>July → ___</li><li>September → ___</li><li>November → ___</li><li>December → ___</li></ol>`],
+["Look, count and write.",`<p class="pics">🔺🔺🔴🟦🟦🟦⭐🔴🔺⭐</p><ol><li>There are ___s triangles.</li><li>There are ___s circles.</li><li>There are ___s squares.</li><li>There are ___s stars.</li></ol>`],
+["Read and draw on the sports field.",`<ol><li>A ball is between two children.</li><li>A dog is behind the goal.</li><li>A girl is in front of the goal.</li><li>A bottle of water is next to the bench.</li></ol>[DRAW]`],
+["Animal Olympics! Look at the chart and write.",`<div class="tw"><table><tr><th>Animal</th><th>run 🏃</th><th>swim 🏊</th><th>fly 🕊️</th></tr><tr><td>cheetah (wild)</td><td>✔</td><td>✘</td><td>✘</td></tr><tr><td>duck (farm)</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>dog (domestic)</td><td>✔</td><td>✔</td><td>✘</td></tr></table></div><ol><li>The cheetah can ___. It can't ___.</li><li>The duck can ___L.</li><li>The dog can't ___.</li></ol>`],
+["Is it farm, domestic or wild? Write F, D or W.",`<ol><li>cheetah ( )</li><li>duck ( )</li><li>goldfish ( )</li><li>pig ( )</li><li>bear ( )</li><li>rabbit (pet) ( )</li></ol>`],
+["Sports and people. Read and complete.",`<p class="bank">football · tennis · swims · runs</p><ol><li>A footballer plays ___.</li><li>A tennis player plays ___.</li><li>A swimmer ___ in the pool.</li><li>A runner ___ very fast.</li></ol>`],
+["Write sentences with There is / There are.",`<p class="pics">🏟️ · 🏊🏊 · 🛝 · 🌳🌳🌳🌳</p><ol><li>(stadium) ___L</li><li>(swimming pools) ___L</li><li>(playground) ___L</li><li>(trees) ___L</li></ol>`],
+["Action verbs. Read and match.",`<div class="tw"><table><tr><th>Verb</th><th>Picture</th><th>Match</th></tr><tr><td>1. jump</td><td>a) 🏊</td><td>___s</td></tr><tr><td>2. swim</td><td>b) 🚶</td><td>___s</td></tr><tr><td>3. walk</td><td>c) 🤸</td><td>___s</td></tr><tr><td>4. dance</td><td>d) 🦘</td><td>___s</td></tr><tr><td>5. climb</td><td>e) 💃</td><td>___s</td></tr><tr><td>6. do a cartwheel</td><td>f) 🧗</td><td>___s</td></tr></table></div>`],
+["Unscramble the school objects. Then write about you.",`<ol><li>l e p n i c → ___ → I ___ a pencil.</li><li>b e r u r → ___ → I ___ a rubber.</li><li>a g b → ___ → I ___ a bag.</li><li>e n p → ___ → I ___ a pen.</li></ol>`]
+],key:[["1","Open (personal answers)"],["2","36 · 51 · 84 · 99 · 67"],["3","August · October · December · January"],["4","3 triangles · 2 circles · 3 squares · 2 stars"],["5","Drawing: ball between two children, dog behind the goal, girl in front of the goal, bottle next to the bench"],["6","The cheetah can run. It can't swim / fly. · The duck can run, swim and fly. · The dog can't fly."],["7","W · F · D · F · W · D"],["8","football · tennis · swims · runs"],["9","There is a stadium. · There are two swimming pools. · There is a playground. · There are four trees."],["10","1–d · 2–a · 3–b · 4–e · 5–f · 6–c"],["11","pencil · rubber · bag · pen + have got / haven't got (open)"]]},
+
+{id:"e",color:"--e",title:"Test E – My Town and Animal Science 🏙️",acts:[
+["Read Sofia's card and answer.",`<p class="story">Hi! My name is Sofia. I am seven years old. My birthday is in October. I like Fridays because there is PE at school. My favourite animal is the penguin.</p><ol><li>How old is Sofia? → She is ___ years old.</li><li>When is her birthday? → In ___.</li><li>What's her favourite day? → ___.</li><li>What's her favourite animal? → The ___.</li></ol>`],
+["Numbers. Write the number before and after.",`<ol><li>___s 19 ___s</li><li>___s 40 ___s</li><li>___s 65 ___s</li><li>___s 99 ___s</li></ol>`],
+["True (T) or False (F)?",`<ol><li>There are seven days in a week. ( )</li><li>There are ten months in a year. ( )</li><li>December is the last month of the year. ( )</li><li>Saturday comes after Sunday. ( )</li></ol>`],
+["Read, draw and colour the house.",`<p class="story">The house is a big white square. The roof is a red triangle. The door is a brown rectangle. There are two blue square windows. The sun is a yellow circle.</p>[DRAW]`],
+["Look at the street. Complete with: next to · between · behind · in front of",`<div class="tw"><table><tr><th>🏥 hospital</th><th>🏫 school</th><th>🏪 shop</th></tr><tr><td></td><td>🚌 bus (on the street)</td><td></td></tr></table></div><ol><li>The school is ___ the hospital and the shop.</li><li>The shop is ___ the school.</li><li>The bus is ___ the school.</li><li>The school is ___ the bus.</li></ol>`],
+["Science: Farm, domestic or wild? True (T) or False (F).",`<ol><li>A goat is a farm animal. ( )</li><li>A zebra is a domestic animal. ( )</li><li>A hamster is a domestic animal. ( )</li><li>A penguin is a wild animal. ( )</li></ol>`],
+["My favourite wild animal. Draw it and complete.",`[DRAW]<p>It is a ___. It is ___ (colour). It has got ___. It can ___. It can't ___.</p>`],
+["Who am I? Read and write the job.",`<p class="bank">vet · farmer · pilot · bus driver</p><ol><li>I fly a plane. → I'm a ___.</li><li>I help sick animals. → I'm a ___.</li><li>I work on a farm with cows and sheep. → I'm a ___.</li><li>I drive a bus in the town. → I'm a ___.</li></ol>`],
+["My town. Complete with is or are.",`<p>In my town there ___s a big park. There ___s three playgrounds in the park. There ___s a library next to the school. There ___s two supermarkets and there ___s a train station.</p>`],
+["Interview a friend or family member. Ask “Can you…?”",`<div class="tw"><table><tr><th>Can you…?</th><th>Me</th><th>My friend</th></tr><tr><td>swim?</td><td>( )</td><td>( )</td></tr><tr><td>ride a bike?</td><td>( )</td><td>( )</td></tr><tr><td>climb a tree?</td><td>( )</td><td>( )</td></tr><tr><td>skate?</td><td>( )</td><td>( )</td></tr></table></div><p>Now write: I can ___. I can't ___.</p>`],
+["Look at my toy box and circle the correct sentence.",`<p class="pics">🤖✅ · ⚽✅ · 🧩❌ · 🪆❌</p><ol><li>(I have got a robot. / I haven't got a robot.)</li><li>(I have got a ball. / I haven't got a ball.)</li><li>(I have got a puzzle. / I haven't got a puzzle.)</li><li>(I have got a doll. / I haven't got a doll.)</li></ol>`]
+],key:[["1","seven · October · Friday · penguin"],["2","18 / 20 · 39 / 41 · 64 / 66 · 98 / 100"],["3","T · F · T · F"],["4","Drawing: white square house, red triangle roof, brown rectangle door, two blue square windows, yellow circle sun"],["5","between · next to · in front of · behind"],["6","T · F · T · T"],["7","Open (e.g. It is a lion. It is yellow. It has got a big mane. It can run. It can't fly.)"],["8","pilot · vet · farmer · bus driver"],["9","is · are · is · are · is"],["10","Open: I can / I can't + verb"],["11","I have got a robot. · I have got a ball. · I haven't got a puzzle. · I haven't got a doll."]]}
+];
+
+let uid=0;
+function fill(html,tid){
+  return html
+    .replace(/\[DRAW\]/g,'<div class="draw">✏️ Draw here (on paper or in this box when printed)</div>')
+    .replace(/___(L|s)?/g,(m,k)=>`<input class="blank${k==='L'?' l':k==='s'?' s':''}" id="${tid}-i${++uid}" aria-label="answer" autocomplete="off">`)
+    .replace(/\( \)/g,()=>`<input class="box" id="${tid}-b${++uid}" maxlength="1" aria-label="answer box" autocomplete="off">`)
+    .replace(/\(([^()<>]*\/[^()<>]*)\)/g,(m,inner)=>'( '+inner.split('/').map(o=>`<span class="opt" role="button" tabindex="0">${o.trim()}</span>`).join(' / ')+' )');
+}
+const stage=document.getElementById('stage'),tabs=document.getElementById('tabs');
+T.forEach((t,i)=>{
+  const b=document.createElement('button');
+  b.role='tab';b.id='tab-'+t.id;b.textContent='Test '+t.id.toUpperCase();
+  b.style.setProperty('--tc',`var(${t.color})`);
+  b.onclick=()=>show(t.id);tabs.appendChild(b);
+  const s=document.createElement('section');
+  s.className='sheet';s.id='sheet-'+t.id;s.hidden=true;s.setAttribute('role','tabpanel');
+  s.style.setProperty('--accent',`var(${t.color})`);
+  s.innerHTML=`<h2>${t.title}</h2>
+  <div class="meta"><label>Name: <input class="blank l" id="${t.id}-name" aria-label="Name" autocomplete="off"></label><label>Date: <input class="blank" id="${t.id}-date" aria-label="Date" autocomplete="off"></label></div>
+  <p class="hint">Tap a word in brackets to circle it. Tap it again to remove the circle.</p>
+  ${t.acts.map((a,j)=>`<div class="act"><h3><span class="n">${j+1}</span>${a[0]}</h3>${fill(a[1],t.id)}</div>`).join('')}
+  <button class="reset" type="button">Clear my answers</button>
+  <details><summary>Answer Key – Test ${t.id.toUpperCase()}</summary><div class="key tw"><table><tr><th>#</th><th>Answers</th></tr>${t.key.map(k=>`<tr><td>${k[0]}</td><td>${k[1]}</td></tr>`).join('')}</table><p class="hint">Open answers and drawings are correct when the structure or position is right.</p></div></details>`;
+  s.querySelector('.reset').onclick=()=>{s.querySelectorAll('input').forEach(x=>x.value='');s.querySelectorAll('.opt.on').forEach(x=>x.classList.remove('on'))};
+  stage.appendChild(s);
+});
+stage.addEventListener('click',e=>{const o=e.target.closest('.opt');if(o)o.classList.toggle('on')});
+stage.addEventListener('keydown',e=>{const o=e.target.closest('.opt');if(o&&(e.key==='Enter'||e.key===' ')){e.preventDefault();o.classList.toggle('on')}});
+function show(id){
+  T.forEach(t=>{const on=t.id===id;document.getElementById('sheet-'+t.id).hidden=!on;document.getElementById('tab-'+t.id).setAttribute('aria-selected',on)});
+  try{localStorage.setItem('ws-tab',id)}catch(e){}
+}
+let start=(location.hash||'').slice(1).toLowerCase();
+if(!T.some(t=>t.id===start)){try{start=localStorage.getItem('ws-tab')||'a'}catch(e){start='a'}}
+if(!T.some(t=>t.id===start))start='a';
+show(start);
+</script>
+
+</body></html>
